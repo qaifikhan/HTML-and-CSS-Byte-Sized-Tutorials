@@ -1,0 +1,7 @@
+Hey guys,
+
+Hope you are doing well :)
+
+This code is in correspondance to the video I've created to convert a list of cards to a responsive grid using CSS Flexbox Layout.
+
+You can find the video at this URL: https://www.edyoda.com/watch/F68379AD79E827FB0DE977689D198668EEC1559933C/

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create a Responsive Grid using Flexbox</title>
+	<style type="text/css">
+		body {
+			margin-top: 32px;
+			box-sizing: border-box;
+		}
+
+		#main-heading {
+			text-align: center;
+		}
+
+		#main-container {
+			margin: 0 auto;
+			max-width: 1100px;
+
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		.card {
+			width: 23%;
+			height: 300px;
+			min-width: 230px;
+			margin: 8px;
+			border-radius: 4px;
+			position: relative;
+		}
+
+		.card-purple {
+			background-color: #957dad;
+		}
+
+		.card-blue {
+			background-color: #5FCAC2;
+		}
+
+		.card-red {
+			background-color: #FF9E9E
+		}
+
+		.card-yellow {
+			background-color: #FFF07B;
+		}
+
+		.card-label {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50% , -50%);
+			margin: 0;
+			font-size: 24px;
+			font-weight: 600;
+			color: #fff;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h2 id="main-heading">Responsive Grid using Flexbox</h2>
+	<div id="main-container">
+		<div class="card card-blue"><p class="card-label">One</p></div>
+		<div class="card card-purple"><p class="card-label">Two</p></div>
+		<div class="card card-red"><p class="card-label">Three</p></div>
+		<div class="card card-yellow"><p class="card-label">Four</p></div>
+		<div class="card card-red"><p class="card-label">Five</p></div>
+		<div class="card card-yellow"><p class="card-label">Six</p></div>
+		<div class="card card-blue"><p class="card-label">Seven</p></div>
+		<div class="card card-purple"><p class="card-label">Eight</p></div>
+		<div class="card card-blue"><p class="card-label">Nine</p></div>
+		<div class="card card-purple"><p class="card-label">Ten</p></div>
+		<div class="card card-red"><p class="card-label">Eleven</p></div>
+		<div class="card card-yellow"><p class="card-label">Twelve</p></div>
+	</div>
+</body>
+</html>
